@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" href="form.css" rel="stylesheet" />
+    <title>form</title>
+</head>
+
+<body>
+     <form action="http://www.starbuzzciffee.com/processorder.php" method="post">
+         <table>
+                <tr>
+                    <th>choose your beans:</th>
+                
+             
+                        <td><select name="beans"> 
+                                  <option value="House Blend"> House Blend</option>
+                                  <option value="Shade Grown Bolivia Supremo">Shade Grown Bolivia Supremo</option>
+                                  <option value="Organic Guatemmala">Organic Guatemmala</option>
+                                  <option value="Kenya">Kenya</option>
+                            </select>
+                        </td>
+                 </tr>
+                 <tr>
+                     <th>Type:</th>
+                     <td><input type="radio" name="beantype" value="whole bean" />whole bean<br />
+                         <input type="radio" name="beantype" value="ground" />ground<br />
+                     </td>
+         
+                <tr>
+                    <th>Extras:</th>
+                    <td><input type="checkbox" name="extras" value="gift wrap" />gift wrap<br />
+                        <input type="checkbox" name="extras" value="include catalog with order" />include catalog with order<br />
+                    </td>
+                </tr>
+                <tr>
+                    <th> ship to:</th>
+                    <td> 
+                         <table>
+                             <tr>
+                                 <td>name:</td>
+                                 <td><input type="text" name="name" /></td>
+                             </tr>
+                             <tr>
+                                 <td>addres:</td>
+                                 <td><input type="text" name="addres" /></td>
+                              </tr>
+                              <tr>
+                                 <td>city:</td>
+                                 <td><input type="text" name="city" /></td>
+                              </tr>
+                              <tr>
+                                  <td>state:</td>
+                                  <td><input type="text" name="state" /></td>
+                              </tr>
+                              <tr>
+                                  <td>zip:</td>
+                                  <td><input type="text" name="zio" /></td>
+                              </tr>
+                         </table>
+                     </td>
+               </tr>
+               <tr>
+                    <th> custer comment:</th>
+                    <td> <textarea name="comment" rows="10" cols="50"></textarea>
+                    </td>
+               </tr>
+               <tr>  
+                   <th></th>   
+                   <td><input type="summit" value="order now" /></td>
+               </tr>
+         </table>
+     </form>
+</body>
+</html>
+

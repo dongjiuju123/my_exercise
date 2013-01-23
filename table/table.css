@@ -1,0 +1,36 @@
+body{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:small;
+	padding:40px;
+	width:400px;
+	height:500px;
+}
+table{
+	margin-left:30px;
+	margin-right:30px;
+	border:thin solid #000000;
+	capation-side:bottom;
+	border-collapse:collapse;
+}
+th,td{
+	border:thin dotted #99CCCC;
+	padding:5px;
+}
+th{
+	background-color:#999;
+}
+caption{
+	font-style:italic;
+	font-size:25px;
+	padding-bottom:20px;
+}
+.cellcolor{
+	background-color:#CCC;
+}
+table table{
+	border:none;
+}
+table table th{
+	background-color:#CCC;
+}
+
